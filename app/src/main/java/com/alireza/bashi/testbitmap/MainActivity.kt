@@ -58,6 +58,7 @@ class MainActivity : AppCompatActivity() {
             mainActivity_imageView_testBitmap.setImageBitmap(bmp.addPadding())
         }
         mainActivity_button_borderedCircularBitmap.setOnClickListener {
+
             mainActivity_imageView_testBitmap.setImageBitmap(bmp.borderedCircularBitmap())
         }
         mainActivity_button_blue.setOnClickListener { gray() }
