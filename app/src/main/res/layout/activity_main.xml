@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/mainActivity_imageView_testBitmap"
+        android:layout_width="270sp"
+        android:layout_height="270sp"
+        android:src="@drawable/image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/mainActivity_button_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="23dp"
+        android:text="@string/gray"
+        app:layout_constraintBottom_toBottomOf="@+id/mainActivity_button_bright"
+        app:layout_constraintEnd_toStartOf="@+id/mainActivity_button_bright"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mainActivity_button_bright" />
+
+    <Button
+        android:id="@+id/mainActivity_button_bright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/bright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainActivity_imageView_testBitmap" />
+
+    <Button
+        android:id="@+id/mainActivity_button_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dark"
+        app:layout_constraintBottom_toBottomOf="@+id/mainActivity_button_bright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toEndOf="@+id/mainActivity_button_bright"
+        app:layout_constraintTop_toTopOf="@+id/mainActivity_button_bright" />
+
+    <Button
+        android:id="@+id/mainActivity_button_gama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gama"
+        app:layout_constraintBottom_toBottomOf="@+id/mainActivity_button_green"
+        app:layout_constraintEnd_toEndOf="@+id/mainActivity_button_gray"
+        app:layout_constraintStart_toStartOf="@+id/mainActivity_button_gray"
+        app:layout_constraintTop_toTopOf="@+id/mainActivity_button_green" />
+
+    <Button
+        android:id="@+id/mainActivity_button_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/green"
+        app:layout_constraintEnd_toEndOf="@+id/mainActivity_button_bright"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/mainActivity_button_bright"
+        app:layout_constraintTop_toBottomOf="@+id/mainActivity_button_bright" />
+
+    <Button
+        android:id="@+id/mainActivity_button_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/mainActivity_button_green"
+        app:layout_constraintEnd_toEndOf="@+id/mainActivity_button_dark"
+        app:layout_constraintStart_toStartOf="@+id/mainActivity_button_dark"
+        app:layout_constraintTop_toTopOf="@+id/mainActivity_button_green" />
+
+    <Button
+        android:id="@+id/mainActivity_button_drawText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/draw_text"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/mainActivity_button_green"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="@+id/mainActivity_button_green"
+        app:layout_constraintTop_toBottomOf="@+id/mainActivity_button_green" />
+
+    <Button
+        android:id="@+id/mainActivity_button_drawLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/draw_line"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/mainActivity_button_drawText"
+        app:layout_constraintEnd_toEndOf="@+id/mainActivity_button_gama"
+        app:layout_constraintStart_toStartOf="@+id/mainActivity_button_gama"
+        app:layout_constraintTop_toTopOf="@+id/mainActivity_button_drawText" />
+
+    <Button
+        android:id="@+id/mainActivity_button_drawCircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="draw Circle"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/mainActivity_button_drawText"
+        app:layout_constraintEnd_toEndOf="@+id/mainActivity_button_blue"
+        app:layout_constraintStart_toStartOf="@+id/mainActivity_button_blue"
+        app:layout_constraintTop_toTopOf="@+id/mainActivity_button_drawText" />
+
+    <Button
+        android:id="@+id/mainActivity_button_drawRectangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="draw Rectangle"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/mainActivity_button_drawText"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="@+id/mainActivity_button_drawText"
+        app:layout_constraintTop_toBottomOf="@+id/mainActivity_button_drawText" />
+
+    <Button
+        android:id="@+id/mainActivity_button_drawShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="draw Shadow"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/mainActivity_button_drawRectangle"
+        app:layout_constraintEnd_toEndOf="@+id/mainActivity_button_drawLine"
+        app:layout_constraintStart_toStartOf="@+id/mainActivity_button_drawLine"
+        app:layout_constraintTop_toTopOf="@+id/mainActivity_button_drawRectangle" />
+
+    <Button
+        android:id="@+id/mainActivity_button_addPadding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="padding"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/mainActivity_button_drawRectangle"
+        app:layout_constraintEnd_toEndOf="@+id/mainActivity_button_drawCircle"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/mainActivity_button_drawCircle"
+        app:layout_constraintTop_toTopOf="@+id/mainActivity_button_drawRectangle"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/mainActivity_button_borderedCircularBitmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="borderedCircularBitmap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/mainActivity_button_bright"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/mainActivity_button_bright"
+        app:layout_constraintTop_toBottomOf="@+id/mainActivity_button_drawRectangle"
+        app:layout_constraintVertical_bias="0.37" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">test bitmap</string>
+    <string name="gray">gray</string>
+    <string name="bright">bright</string>
+    <string name="dark">dark</string>
+    <string name="gama">gama</string>
+    <string name="green">green</string>
+    <string name="blue">blue</string>
+    <string name="draw_text">Draw Text</string>
+    <string name="draw_line">draw line</string>
+</resources>
