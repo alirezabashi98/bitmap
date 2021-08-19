@@ -7,15 +7,15 @@ Working with Bitmap
 
 <br>
 
-<img src="https://github.com/alirezabashi98/bitmap/raw/master/img001.jpg" width="320" height="440"><br>
-<img src="https://github.com/alirezabashi98/bitmap/raw/master/img002.jpg" width="320" height="440">
-<img src="https://github.com/alirezabashi98/bitmap/raw/master/img003.jpg" width="320" height="440"><br>
-<img src="https://github.com/alirezabashi98/bitmap/raw/master/img004.jpg" width="320" height="440">
-<img src="https://github.com/alirezabashi98/bitmap/raw/master/img005.jpg" width="320" height="440"><br>
-<img src="https://github.com/alirezabashi98/bitmap/raw/master/img006.jpg" width="320" height="440">
-<img src="https://github.com/alirezabashi98/bitmap/raw/master/img007.jpg" width="320" height="440"><br>
-<img src="https://github.com/alirezabashi98/bitmap/raw/master/img008.jpg" width="320" height="440">
-<img src="https://github.com/alirezabashi98/bitmap/raw/master/img009.jpg" width="320" height="440"><br>
-<img src="https://github.com/alirezabashi98/bitmap/raw/master/img010.jpg" width="320" height="440">
-<img src="https://github.com/alirezabashi98/bitmap/raw/master/img011.jpg" width="320" height="440"><br>
-<img src="https://github.com/alirezabashi98/bitmap/raw/master/img012.jpg" width="320" height="440">
+<img src="https://github.com/alirezabashi98/bitmap/raw/master/img001.jpg" width="285" height="440"><br>
+<img src="https://github.com/alirezabashi98/bitmap/raw/master/img002.jpg" width="285" height="440">
+<img src="https://github.com/alirezabashi98/bitmap/raw/master/img003.jpg" width="285" height="440"><br>
+<img src="https://github.com/alirezabashi98/bitmap/raw/master/img004.jpg" width="285" height="440">
+<img src="https://github.com/alirezabashi98/bitmap/raw/master/img005.jpg" width="285" height="440"><br>
+<img src="https://github.com/alirezabashi98/bitmap/raw/master/img006.jpg" width="285" height="440">
+<img src="https://github.com/alirezabashi98/bitmap/raw/master/img007.jpg" width="285" height="440"><br>
+<img src="https://github.com/alirezabashi98/bitmap/raw/master/img008.jpg" width="285" height="440">
+<img src="https://github.com/alirezabashi98/bitmap/raw/master/img009.jpg" width="285" height="440"><br>
+<img src="https://github.com/alirezabashi98/bitmap/raw/master/img010.jpg" width="285" height="440">
+<img src="https://github.com/alirezabashi98/bitmap/raw/master/img011.jpg" width="285" height="440"><br>
+<img src="https://github.com/alirezabashi98/bitmap/raw/master/img012.jpg" width="285" height="440">
